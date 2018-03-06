@@ -1,0 +1,7 @@
+SHELL=/bin/bash
+HOME=/home/toby
+EXEC_PATH=/home/toby/py_test/my_project/stock_strategy
+PY_ENV_ACT=/home/toby/.env/py3/bin/activate
+25 9 * * * cd $EXEC_PATH; date >> main.log; source $PY_ENV_ACT; python dengta_crawler.py >> main.log 2>&1;
+28 9 * * * cd $EXEC_PATH; date >> main.log; git pull; git add data.db; git ci -m 'update db'; git push;
+

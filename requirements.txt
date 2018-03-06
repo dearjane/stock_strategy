@@ -1,0 +1,5 @@
+requests==2.18.4
+SQLAlchemy==1.1.9
+sqlalchemy_mixins==0.2.3
+python_dateutil==2.6.1
+PyMySQL==0.7.11
