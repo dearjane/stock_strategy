@@ -121,9 +121,6 @@ class RecommendSourceCrawler():
                 code=stock['sDtSecCode'][4:],
                 )
 
-def test():
-    print(2)
-
 if __name__ == "__main__":
     logging.basicConfig(level=logging.INFO,
                         format='%(asctime)s %(name)s:%(funcName)s-%(lineno)d:%(levelname)s:%(message)s')
